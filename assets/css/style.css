@@ -1,24 +1,24 @@
-/* Move down content because we have a fixed navbar*/
+
 .wrapper {
   flex: 1;
   padding-left: 10vw;
   padding-right: 10vw;
-  padding-top: calc(70px + 4vw); /*updated 11/10/17*/
+  padding-top: calc(70px + 4vw); 
   padding-bottom: calc(60px + 1vw);
-  background-image: url("../images/regal.png");
+  background-image: url("../images/spiration dark.png");
 }
 
 nav {
   background-color: #4aaaa5;
-  border-bottom: 8px double #d8d8d8; /*updated 11/10/17*/
+  border-bottom: 8px double #d8d8d8;
 }
 
-/* Panels and Cards*/
+
 
 .panel-background{
   background-color: #fff;
   border: 1px solid #eee;
-  padding: 5%; /*updated 11/10/17*/
+  padding: 5%;
 }
 
 .card {
@@ -30,7 +30,7 @@ nav {
   background-color: #4aaaa5;
   position: absolute;
   width: 100%;
-  top: calc(85% - 1.5em);/*updated 11/10/17*/
+  top: calc(85% - 1.5em);
 }
 
 .card-title {
@@ -39,10 +39,8 @@ nav {
 }
 
 .card a {
-  text-decoration: none; /* no underline links */
+  text-decoration: none; 
 }
-
-/* Sticky footer styles */
 html {
   position: absolute;
   width: 100%;
@@ -60,21 +58,21 @@ body {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 60px; /* Set the fixed height of the footer here */
-  line-height: 60px; /* Vertically center the text there */
+  height: 60px; 
+  line-height: 60px; 
   background-color: #666;
 }
 footer p {
   margin-bottom: 0;
   color: #999;
-  font-size: calc(10px + 0.5vw); /*updated 11/10/17*/
+  font-size: calc(10px + 0.5vw); 
 }
 
-/*Text styling*/
+
 .navbar-brand {
   font-size: 26px;
-  line-height: 40px; /*updated 11/10/17*/
-  padding: 10px 0 5px 15px; /*updated 11/10/17*/
+  line-height: 40px;
+  padding: 10px 0 5px 15px;
 }
 
 h2, h4, .navbar-brand {
@@ -86,7 +84,7 @@ p, a, h3,h5 {
 }
 
 h2 {
-  font-size: calc(16px + 1vw); /*updated 11/10/17*/
+  font-size: calc(16px + 1vw); 
   color: #4aaaa5;
 }
 
@@ -96,7 +94,7 @@ h3 {
 }
 
 h4 {
-  font-size: calc(14px + 0.5vw); /*updated 11/10/17*/
+  font-size: calc(14px + 0.5vw); 
   color: #4aaaa5;
 }
 
@@ -108,10 +106,9 @@ h5 {
 
 p {
   font-size: calc(12px + 0.5vw);
-  color: #777; /*added 11/10/17 Update*/
+  color: #777; 
 }
 
-/*aside images */
 aside img {
   width: 100%;
 }
